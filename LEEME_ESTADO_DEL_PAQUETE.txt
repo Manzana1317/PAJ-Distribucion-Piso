@@ -1,0 +1,11 @@
+PAJ 3.0 - PAQUETE DE DESARROLLO
+
+Este paquete contiene la ÚLTIMA BASE DE CÓDIGO RECUPERADA y el registro consolidado
+de correcciones solicitadas. NO se afirma que todas las correcciones estén implementadas.
+
+Contenido:
+- index.html: código extraído de PAJ_3_0_Planos_Alineados_Check_v2.zip
+- PAJ_3_0_Registro_Completo_Correcciones_y_Cambios.md: requisitos y pruebas pendientes
+
+No subir a producción como versión final sin implementar y verificar las correcciones.
+No modifica PAJ 2.0.

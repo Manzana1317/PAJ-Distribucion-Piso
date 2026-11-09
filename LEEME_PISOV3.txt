@@ -1,0 +1,5 @@
+PISOV3 - paquete completo para despliegue web estatico.
+Incluye index.html, manifest.webmanifest, sw.js e iconos.
+Desplegar el contenido de este ZIP en la raiz del sitio pisov3.pages.dev.
+Mantiene la conexion de Supabase incluida en la version de origen.
+No se ha validado visualmente la correspondencia de puestos del ajuste horizontal.

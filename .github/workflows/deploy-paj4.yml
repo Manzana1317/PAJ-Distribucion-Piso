@@ -1,0 +1,24 @@
+name: PAJ 4.0 - Validacion
+
+on:
+  push:
+    branches:
+      - paj-4.0
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar codigo
+        uses: actions/checkout@v4
+
+      - name: Comprobar archivos
+        run: |
+          test -f index.html
+          test -f manifest.webmanifest
+          test -f sw.js
+          echo "Archivos principales encontrados"
